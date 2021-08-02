@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workshop - Desafio</title>
+    <link rel="stylesheet" type="text/css" href="css/desafio.css" />
+  </head>
+  <body>
+    <nav class="barra-navegacao">
+      <img class="barra-navegacao__logotipo" src="img/logotipo-reprograma.png">
+    </nav>
+    <header class="cabeçalho">
+      <h1 class="cabeçalho__titulo">Bem-vindas ao meu Projeto!</h1>
+      <h2 class="cabeçalho__subtitulo">Calcule aqui o seu Projeto:</h2>
+    </header>
+    <label for="valor-hora">Valor Hora</label>
+    <input type="number" id="valor-hora" value="0"/>
+
+    <label for="horas-projeto">Horas Projeto</label>
+    <input type="number" id="horas-projeto" value="0" />
+
+    <span id="resposta">Resposta</span>
+    <button onclick="calcular()">Calcular Projeto</button>
+    <div class = "resultado__box">
+      <span id="resposta"></span>
+    </div>
+    <a href="index.html">Voltar</a>
+
+    <script type="text/javascript" src="js/desafio.js"></script>
+  </body>
+</html>
+
